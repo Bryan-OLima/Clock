@@ -1,0 +1,1 @@
+window.clock = new Clock();

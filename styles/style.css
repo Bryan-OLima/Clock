@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+
+#clock, .outside{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+#clock{
+    background-color: #f0efef;
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+
+.outside{
+    background-color: #b5b9bb;
+    width: 480px;
+    height: 180px;
+    border-radius: 30px;
+}
+
+.inside{
+    background-color: #949e93;
+    width: 430px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.dt{
+    font-size: 3em;
+}
