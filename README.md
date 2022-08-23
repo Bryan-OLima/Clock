@@ -1,0 +1,1 @@
+This is a simple Clock made with HTML/CSS/JS to apply OOP.
