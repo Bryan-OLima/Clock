@@ -15,7 +15,6 @@ class Clock{
 
     setTime(){
         this.displayTime = this.currentDate.toLocaleTimeString(this._locale);
-        console.log(this._displayTimeEl);
     }
 
 /** GETTERS AND SETTERS START**/
