@@ -1,4 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/ds-digital');
+
 *{
     font-family: 'DS-Digital', sans-serif;
 }
@@ -19,7 +20,7 @@ body {
 }
 
 #clock{
-    background-color: #f0efef;
+    background-color: #070707;
     width: 500px;
     height: 200px;
     border-radius: 20px;
@@ -27,14 +28,14 @@ body {
 }
 
 .outside{
-    background-color: #b5b9bb;
+    background-color: #656768;
     width: 480px;
     height: 180px;
     border-radius: 30px;
 }
 
 .inside{
-    background-color: #949e93;
+    background-color: #000000;
     width: 430px;
     height: 130px;
     display: flex;
@@ -46,5 +47,6 @@ body {
 }
 
 .dt{
-    font-size: 6em;
+    font-size: 7em;
+    color: red;
 }
